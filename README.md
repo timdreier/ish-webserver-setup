@@ -10,6 +10,8 @@ At first you'll need git to clone this repository. Start iSH and run
 and
 `apk add git`.
 
+## Setup apache2 and git
+
 After that clone this repository with
 `git clone <repository url>`.
 
