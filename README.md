@@ -13,7 +13,7 @@ and
 After that clone this repository with
 `git clone <repository url>`.
 
-Now switch to the created folder and run the setup script with
+Now switch to the created folder and make the .sh files executable with `chmod +x setup.sh` and `chmod +x start.sh`. Now run the setup script with
 `sh ./setup.sh`.
 
 During the script you will be asked for location access. This is needed to keep the iSH running when it is in background.

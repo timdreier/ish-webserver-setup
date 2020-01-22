@@ -8,9 +8,9 @@ apk add nano vim
 
 echo ""
 echo "#############################################"
-echo "Install apache2"
+echo "Install apache2 and php"
 echo "#############################################"
-apk add apache2
+apk add apache2 php
 
 echo ""
 echo "#############################################"
@@ -24,6 +24,7 @@ echo "Configure and start apache"
 echo "#############################################"
 cp -rf httpd.conf /etc/apache2/
 httpd
+cat /dev/location > /dev/null &
 
 echo ""
 echo "#############################################"
