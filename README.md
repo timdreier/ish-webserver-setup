@@ -1,5 +1,5 @@
 # Webserver with PHP for iSH
-Apache2 webserver with PHP support for iOS devices.
+Shell script to setup apache2 webserver with PHP support on iOS devices.
 
 ## Install iSH
 Detailed instructions can be found [here](https://ish.app/).
@@ -8,7 +8,7 @@ Detailed instructions can be found [here](https://ish.app/).
 At first you'll need git to clone this repository. Start iSH and run
 `apk update`
 and
-`apk add openssh git`.
+`apk add git`.
 
 After that clone this repository with
 `git clone <repository url>`.
