@@ -16,8 +16,7 @@ echo ""
 echo "#############################################"
 echo "Install git related utilitys"
 echo "#############################################"
-apk add openssh-keygen
-apk add git
+apk add openssh openssh-keygen git
 
 echo ""
 echo "#############################################"
