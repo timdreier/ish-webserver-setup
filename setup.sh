@@ -10,7 +10,7 @@ echo ""
 echo "#############################################"
 echo "Install apache2 and php"
 echo "#############################################"
-apk add apache2 php
+apk add apache2 php php-apache2
 
 echo ""
 echo "#############################################"
